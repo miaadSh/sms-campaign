@@ -1,0 +1,33 @@
+{
+    "name": "zoomila/sms-campaign",
+    "description": "create sms campaign",
+    "require": {
+        "orchestra/testbench": "9999999-dev",
+        "livewire/livewire": "9999999-dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "miaad shahrokhi",
+            "email": "miaad.66@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "SmsCampaign\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers":[
+                "SmsCampaign\\SmsCampaignServiceProvider"
+            ]
+        }
+    }
+}
