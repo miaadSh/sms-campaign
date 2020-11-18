@@ -14,7 +14,7 @@ class SmsCampaignController extends Controller
      */
     public function index()
     {
-        return view('sms::sms_campaign.index');
+        return view('sms::sms.campaign.index');
     }
 
     /**

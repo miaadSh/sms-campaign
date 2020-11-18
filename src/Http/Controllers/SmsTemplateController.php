@@ -14,7 +14,7 @@ class SmsTemplateController extends Controller
      */
     public function index()
     {
-        return "<h1>Welcome To Sms Template Managment</h1>";
+        return view('sms::sms.template.index');
     }
 
     /**

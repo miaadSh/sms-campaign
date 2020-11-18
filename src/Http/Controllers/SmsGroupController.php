@@ -14,7 +14,7 @@ class SmsGroupController extends Controller
      */
     public function index()
     {
-        return "<h1>Welcome To Sms Group Managment</h1>";
+        return view('sms::sms.group.index');
     }
 
     /**
