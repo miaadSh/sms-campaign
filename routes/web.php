@@ -9,5 +9,6 @@ Route::group([
     Route::resource('sms-campaign', 'SmsCampaignController');
     Route::resource('sms-template', 'SmsTemplateController');
     Route::resource('sms-group', 'SmsGroupController');
+    Route::resource('dashboard', 'DashboardController');
 });
 

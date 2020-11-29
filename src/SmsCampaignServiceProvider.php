@@ -7,6 +7,7 @@ use Livewire\Livewire;
 use SmsCampaign\Http\Livewire\Sms\Campaign;
 use SmsCampaign\Http\Livewire\Sms\Group;
 use SmsCampaign\Http\Livewire\Sms\Template;
+use SmsCampaign\Http\Livewire\Sms\Dashboard;
 
 class SmsCampaignServiceProvider extends ServiceProvider{
 
@@ -24,6 +25,7 @@ class SmsCampaignServiceProvider extends ServiceProvider{
         Livewire::component('smsComponent::campaign', Campaign::class);
         Livewire::component('smsComponent::group', Group::class);
         Livewire::component('smsComponent::template', Template::class);
+        Livewire::component('smsComponent::dashboard', Dashboard::class);
     }
 
 
@@ -46,12 +48,6 @@ class SmsCampaignServiceProvider extends ServiceProvider{
             $this->publishes([
                 __DIR__.'/../resources/lang' => resource_path('lang/vendor/zoomila'),
             ], 'zoomila-lang');
-
-            /* $this->publishes([
-                __DIR__.'/../resources/stubs/providers/CanvasServiceProvider.stub' => app_path(
-                    'Providers/CanvasServiceProvider.php'
-                ),
-            ], 'zoomila-provider'); */
         }
     }
 

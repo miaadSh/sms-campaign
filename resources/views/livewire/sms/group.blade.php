@@ -1,3 +1,3 @@
 <div>
-    <h1>Welcome to Group</h1>
+    <h1 wire:click="xxxx">Welcome to Group</h1>
 </div>
