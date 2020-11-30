@@ -32,6 +32,7 @@
     "tailwindcss": "^2.0.1"
   },
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1",
     "axios": "^0.21.0",
     "cross-env": "^7.0",
     "laravel-mix": "^5.0.9",

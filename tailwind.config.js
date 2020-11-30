@@ -189,6 +189,12 @@ module.exports = {
         '"Courier New"',
         'monospace',
       ],
+      iran:[
+        'iran-sans',
+        'Arial',
+        '"Noto Sans"',
+        'sans-serif',
+        ]
     },
     fontSize: {
       xs: ['0.75rem', { lineHeight: '1rem' }],
@@ -713,7 +719,7 @@ module.exports = {
       30: '30',
       40: '40',
       50: '50',
-    },
+    }
   },
   variantOrder: [
     'first',

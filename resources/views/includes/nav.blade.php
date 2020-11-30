@@ -12,9 +12,9 @@
 
                 <a href="{{ route('sms-campaign.index') }}" class="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700">مدیریت کمپین ها</a>
 
-                <a href="{{ route('sms-template.index') }}" class="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700">مدیریت گروه ها</a>
+                <a href="{{ route('sms-group.index') }}" class="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700">مدیریت گروه ها</a>
 
-                <a href="{{ route('sms-group.index') }}" class="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700">مدیریت پیش نویس ها</a>
+                <a href="{{ route('sms-template.index') }}" class="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700">مدیریت پیش نویس ها</a>
               </div>
             </div>
           </div>

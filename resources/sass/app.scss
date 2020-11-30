@@ -1,5 +1,24 @@
+@import "variables";
+@import "fontawesome";
+
+@font-face {
+    font-family: 'iran-sans';
+    font-style: normal;
+    font-weight: 400;
+    font-display: $fa-font-display;
+    src: url('#{$font-path}/IRANSansWeb.eot');
+    src: url('#{$font-path}/IRANSansWeb.eot?#iefix') format('embedded-opentype'),
+    url('#{$font-path}/IRANSansWeb.woff2') format('woff2'),
+    url('#{$font-path}/IRANSansWeb.woff') format('woff'),
+    url('#{$font-path}/IRANSansWeb.ttf') format('truetype'),
+    url('#{$font-path}/IRANSansWeb.svg#fontawesome') format('svg');
+}
+
+html{
+    font-family: 'iran-sans' !important;
+}
+
 @import "tailwindcss/base";
-
 @import "tailwindcss/components";
-
+@import "components/button";
 @import "tailwindcss/utilities";

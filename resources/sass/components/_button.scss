@@ -1,0 +1,19 @@
+.btn{
+    @apply w-16 h-8 p-4;
+}
+
+.success{
+    @apply bg-green-200
+}
+
+.info{
+    @apply bg-blue-200
+}
+
+.error{
+    @apply bg-red-200
+}
+
+.warning{
+    @apply bg-yellow-200
+}
