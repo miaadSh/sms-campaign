@@ -1,8 +1,8 @@
 <div class="contain mx-auto">
     <div class="flex justify-between">
-        <h3>لیست کمپین ها</h3>
+        <h3>لیست پیش نویس ها</h3>
         <div>
-            <a href="{{ route('sms-campaign.create') }}" class="px-2 py-1 success">
+            <a href="{{ route('sms-template.create') }}" class="px-2 py-1 success">
                 <i class="fa fa-plus"></i>
             </a>
             <a wire:click="" href="" class="px-2 py-1 info mr-1">
@@ -56,7 +56,7 @@
                                 </span>
                             </td>
                             <td class="px-6 py-5 whitespace-nowrap text-right text-sm font-medium">
-                                <a href="#" class="text-indigo-600 hover:text-indigo-900">
+                                <a href="{{ route("sms-template.edit",$i) }}" class="text-indigo-600 hover:text-indigo-900">
                                     <i class="fa fa-edit"></i>
                                 </a>
                                 <a href="#" class="text-red-600 hover:text-red-900 mr-2">

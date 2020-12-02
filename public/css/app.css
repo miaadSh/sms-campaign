@@ -6734,9 +6734,7 @@ video {
 }
 
 .btn {
-  height: 2rem;
-  padding: 1rem;
-  width: 4rem;
+  padding: 0.5rem;
 }
 
 .success {

@@ -24,7 +24,7 @@ class SmsTemplateController extends Controller
      */
     public function create()
     {
-        //
+        return view('sms::sms.template.manage',["mode"=>"create"]);
     }
 
     /**
@@ -57,7 +57,7 @@ class SmsTemplateController extends Controller
      */
     public function edit($id)
     {
-        //
+        return view('sms::sms.template.manage',["mode"=>"edit","template_id"=>$id]);
     }
 
     /**
